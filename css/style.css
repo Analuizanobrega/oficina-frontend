@@ -1,0 +1,100 @@
+
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+    background-color: f7f7f7;
+}
+
+.banner{
+    background-image: url(../img/banner2.png);
+    height: 90vh;
+    gap: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner p,h1{
+    color: #fff;
+    margin: 0;
+}
+
+.banner h1{
+    font-size: 60px;
+    text-shadow: 1px 9px 3px #0e0d0da6;
+}
+
+.banner a{
+    background-color: #fff;
+    color: #7e4598;
+    border-radius: 30px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+}
+
+.banner a:hover{
+    background-color: #7e4598;
+    color: #fff;
+    transition: 300ms;
+}
+/* .descricao, .habilidades{
+    display: inline-block;
+    width: 40%;
+} */
+
+.sobre{
+    display: flex;
+    width: 1200px;
+    max-width: 90%;
+    margin: 50px auto;
+    color: #353639;
+}
+
+.descricao{
+    width: 70%;
+    margin-right: auto;
+}
+
+.descricao h2{
+    font-size: 30px;
+}
+
+.descricao p{
+    font-size: 18px;
+}
+
+.descricao a{
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 80px;
+    background-color: #7e4598;
+    color: #fff;
+    text-decoration: none;
+}
+
+.descricao a:hover{
+    background-color: #9c5db9;
+    transition: 300ms;
+}
+
+.habilidades{
+    width: 20%;
+}
+
+.habilidades h3{
+    text-align: center;
+}
+
